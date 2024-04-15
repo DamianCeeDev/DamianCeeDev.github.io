@@ -1,0 +1,50 @@
+.flex-container {
+    display: flex;
+}
+
+nav {
+
+    border: 5px solid black;
+    width: 75%;
+    padding: 10px;
+    height: 100%;
+
+}
+
+ul {
+    list-style: none;
+    margin-right: 60px;
+}
+
+li {
+    font-family: impact;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-decoration: none;
+    color: black;
+    font-family: IMPACT;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+h2 {
+    text-decoration: none;
+    color: black;
+    font-family: IMPACT;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+
+a:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,68 @@
+.canvas {
+    width:auto;
+    height:100vh;
+    border:20px solid red; 
+    margin:auto;
+    margin-left: auto;
+    position: relative; /* Make sure the canvas is positioned relative */
+  }
+    
+    
+  .frame {
+    width: auto;
+    height:auto;
+    border:15px solid black;
+    
+  }
+  
+  .one {
+    width: 50%;
+    height: 99vh;
+    background-color: blue;
+    border: 5px solid black;
+    margin: auto;
+    
+  }
+    
+  
+  .two {
+    width: 25%;
+    height: 99%;
+    background-color: green;
+    border: 5px solid black ;
+    margin: auto;
+    position: absolute; 
+    top: 0%; 
+    
+  
+  }
+  
+  
+  .three {
+      width: 25%;
+      height: 99%;
+      background-color: yellow;
+      border: 5px solid black ;
+      margin: auto;
+      position: absolute; 
+      top: 0%; 
+      right: 0%;
+  }
+  
+  h1{
+    text-align: center;
+    font-family: IMPACT;
+    font-size: 65px;
+    
+  }
+  
+  h2{
+    text-align: center;
+    font-family: IMPACT;
+    font-size: 55px;
+  }
+  
+  li{
+    font-family: IMPACT;
+    font-size: 25px;
+  }
