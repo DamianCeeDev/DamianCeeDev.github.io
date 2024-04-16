@@ -1,0 +1,57 @@
+/* {
+  border: 1px solid red;
+}
+*/
+
+html {
+    background-color: #ffcccc;
+}
+
+body {
+    padding: 5px;
+}
+
+header {
+    color: black;
+    background-color: #dcdcdc;
+    padding: 2px;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+
+h1 {
+    background-color: #1abc9c;
+    padding: 5px;
+    font-size: 160%;
+    border: 2px solid black;
+}
+
+h2 {
+    background-color: #1abc9c;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+h3 {
+    background-color: #1abc9c;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+
+footer {
+
+    background-color: #ffcccc;
+    color: black;
+    padding: 1px;
+    border: 2px solid black;
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.8);
+}

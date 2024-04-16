@@ -1,0 +1,123 @@
+* {
+    color: white;
+  }
+  
+  html {
+    background-color: black;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: darkgray;
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  header {
+    color: white;
+    background-color: black;
+    font-family: IMPACT;
+  }
+  
+  nav {
+    font-size: x-large;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .introduction {
+    border: 1px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  
+  .aboutme {
+    border: 1px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 10px;
+  }
+  
+  h1 {
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-family: IMPACT;
+    font-size: 50px;
+  }
+  
+  h2 {
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-family: IMPACT;
+    font-size: 30px;
+  }
+  
+  .introduction {
+    padding: 10px;
+    background-color: black;
+  }
+  
+  .author-date p {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  
+  .blog-posts {
+    padding: 10px;
+  }
+  
+  article {
+    border: 1px solid darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    border: 1px solid white;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1px 10px;
+    margin: 10px;
+  }
+  
+  footer p {
+    padding-left: 10px;
+  
+  }
+  
+  .post-01,
+  .post-02,
+  .post-03,
+  .post-04,
+  .post-05 {
+    padding-top: 20px;
+  }
+  
+  
+  .introductionpics,
+  .entry1pic,
+  .entry2pic,
+  .entry3pic,
+  .entry4pic,
+  .entry5pic {
+    text-align: center;
+    margin-bottom: 20px;
+  }

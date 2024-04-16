@@ -1,0 +1,51 @@
+h1 {
+    background-color: #EAEAEA;
+    text-align: center;
+    font-size: 300%;
+
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h2 {
+    background-color: #EAEAEA;
+    text-align: center;
+    font-size: 300%;
+
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+
+.calltoaction {
+    text-align: center;
+    font-size: 170%;
+
+}
+
+article {
+    background-color: #EAEAEA;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+fieldset {
+
+    text-align: center;
+    background-color: #EAEAEA;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+a:visited {
+    color: lightgray;
+}
