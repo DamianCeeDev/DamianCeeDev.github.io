@@ -1,4 +1,44 @@
-main {
-    padding: 10px;
+ul {
+    list-style: none;
+  }
+  
+  h1 {
     border: 1px solid black;
-}
+    padding: 10px;
+    margin: 1px;
+    background-color: #000000;
+    color:#F5EDED;
+    font-family: Consolas;
+    margin-bottom: 5px;
+  }
+  
+  footer {
+    padding: 10px;
+    margin: 1px;
+    background-color: #F5EDED;
+    color: #000000;
+    font-family: Consolas;
+    font-weight: bold;
+  }
+  
+  body {
+    padding: 10px;
+    margin: 1px;
+    background-color: #3E3636;
+    color: #F5EDED;
+  }
+  
+  a {
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #D72323;
+  }
+  
+  article{
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 10px;
+    background-color: #F5EDED ;
+  }
