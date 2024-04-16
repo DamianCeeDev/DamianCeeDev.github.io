@@ -2,12 +2,17 @@ ul {
     list-style: none;
   }
   
+  li a {
+    color: #F5EDED;
+  }
+  
+  
   h1 {
     border: 1px solid black;
     padding: 10px;
     margin: 1px;
     background-color: #000000;
-    color:#F5EDED;
+    color: #F5EDED;
     font-family: Consolas;
     margin-bottom: 5px;
   }
@@ -34,12 +39,12 @@ ul {
   }
   
   a:hover {
-    color: #D72323;
+    color: #000000;
   }
   
-  article{
+  article {
     border: 2px solid #000000;
     color: #000000;
     padding: 10px;
-    background-color: #F5EDED ;
+    background-color: #F5EDED;
   }
