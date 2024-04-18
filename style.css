@@ -1,13 +1,21 @@
 ul {
   list-style: none;
-  font-size: x-large;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 5px;
+  /* Remove default padding */
+  padding-right: 5px;
+  /* Remove default padding */
+  margin: 5px;
+  /* Remove default margin */
 }
 
 
 header {
   grid-area: nav-bar;
   background-color: #F5EDED;
-  padding-right: 40px;
+  padding-right: 3px;
+  padding-left: 3px;
   margin: 10px;
 
 }
@@ -51,6 +59,7 @@ body {
 a {
   color: #000000;
   font-weight: bold;
+  text-align: left;
 }
 
 a:hover {
@@ -62,6 +71,19 @@ article {
   color: #000000;
   padding: 10px;
   background-color: #F5EDED;
+}
+
+article ul {
+
+  list-style: none;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 5px;
+  /* Remove default padding */
+  padding-right: 5px;
+  /* Remove default padding */
+  margin: 1px;
+  /* Remove default margin */
 }
 
 .webpage-format {
