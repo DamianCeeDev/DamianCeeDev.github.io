@@ -1,15 +1,12 @@
 ul {
   list-style: none;
-  font-size: 20px;
+  font-size: 15px;
+  /* Adjusted font size */
   text-align: left;
   padding-left: 5px;
-  /* Remove default padding */
   padding-right: 5px;
-  /* Remove default padding */
   margin: 5px;
-  /* Remove default margin */
 }
-
 
 header {
   grid-area: nav-bar;
@@ -17,7 +14,6 @@ header {
   padding-right: 3px;
   padding-left: 3px;
   margin: 10px;
-
 }
 
 header a {
@@ -51,7 +47,6 @@ h1 {
 }
 
 body {
-
   background-color: #3E3636;
   color: #F5EDED;
 }
@@ -74,16 +69,13 @@ article {
 }
 
 article ul {
-
   list-style: none;
-  font-size: 15px;
+  font-size: 12px;
+  /* Adjusted font size */
   text-align: left;
   padding-left: 5px;
-  /* Remove default padding */
   padding-right: 5px;
-  /* Remove default padding */
   margin: 1px;
-  /* Remove default margin */
 }
 
 .webpage-format {
@@ -91,5 +83,5 @@ article ul {
   grid-template-areas:
     "nav-bar main-content main-content"
     "nav-bar main-content main-content"
-    "nav-bar the-footer the-footer"
+    "nav-bar the-footer the-footer";
 }
