@@ -1,14 +1,22 @@
-let canvas = document.getElementById("menuCanvas");
-let ctx = canvas.getContext("2d");
+const canvas = document.getElementById('ctx');
+const windowWidth = window.innerWidth;
+const windowHeight = window.innerHeight;
 
-ctx.fillStyle = "#FFD95A"; // Example background color
-ctx.fillRect(50, 50, canvas.width, canvas.height);
+canvas.width = windowWidth;
+canvas.height = windowHeight;
 
-// Set font style (optional)
-ctx.font = "30px IMPACT"; // Example font and size
+window.addEventListener('resize', () => {
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+    canvas.width = windowWidth;
+    canvas.height = windowHeight;
+});
 
-// Set text fill color (optional)
-ctx.fillStyle = "#000"; // Black color
+const ctx = canvas.getContext('2d');
 
-// Draw text "Hello World!" at (50, 100) with a maximum width of 150 pixels
-ctx.fillText("Button Test", 100, 110, 150);
+ctx.fillStyle = '#000000';
+ctx.fillRect(2, 2, windowWidth, windowHeight);
+
+for (i = 0; i <= 5; i++) {
+    console.log(`We are on ${i}`);
+}
