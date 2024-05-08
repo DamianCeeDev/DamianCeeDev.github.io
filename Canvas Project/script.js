@@ -1,22 +1,15 @@
 const canvas = document.getElementById('ctx');
-const windowWidth = window.innerWidth;
-const windowHeight = window.innerHeight;
+const ctx = canvas.getContent('2d');
 
-canvas.width = windowWidth;
-canvas.height = windowHeight;
+const menuOptions = ['Page 1', 'Page 2'];
+let selectedIndex = 0;
 
-window.addEventListener('resize', () => {
-    const windowWidth = window.innerWidth;
-    const windowHeight = window.innerHeight;
-    canvas.width = windowWidth;
-    canvas.height = windowHeight;
-});
+ctx.font = `20px Impact`;
+ctx.fillStyle = '#F5EDED';
 
-const ctx = canvas.getContext('2d');
 
-ctx.fillStyle = '#000000';
-ctx.fillRect(2, 2, windowWidth, windowHeight);
+function drawMenu() {
+    ctx.clearRect(0, 0, canvas, width, canvas.height);
 
-for (i = 0; i <= 5; i++) {
-    console.log(`We are on ${i}`);
+
 }
