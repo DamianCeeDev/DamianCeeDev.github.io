@@ -9,7 +9,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, #e0e0e0, #ADD8E6);
+    background: linear-gradient(90deg, #333333, #000000);
     padding: 10px;
 }
 
@@ -58,8 +58,8 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ADD8E6;
-    color: #000;
+    background: #000000;
+    color: hsl(0, 0%, 100%);
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
