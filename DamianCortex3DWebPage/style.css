@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+nav {
+    float: left;
+    /* Move the navbar to the left */
+    width: 200px;
+    /* Set the width of the navbar */
+    background-color: #ddd;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
