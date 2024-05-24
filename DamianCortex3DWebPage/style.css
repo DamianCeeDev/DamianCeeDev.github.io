@@ -21,13 +21,13 @@ nav {
     /* Move the navbar to the left */
     width: 200px;
     /* Set the width of the navbar */
+    height: 600px;
     background-color: #ddd;
     padding: 20px;
     font-size: 20px;
     font-size: xx-large;
     font-family: impact;
     background-color: #000;
-    height: 100%;
 }
 
 nav ul {
@@ -59,7 +59,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 5px;
+    padding: 10px;
     background-color: #000;
     color: #ddd;
     font-family: impact;
