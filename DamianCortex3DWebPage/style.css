@@ -28,9 +28,7 @@ header {
 
 nav {
     float: left;
-    /* Move the navbar to the left */
     width: 120px;
-    /* Set the width of the navbar */
     height: 700px;
     background-color: #ddd;
     padding: 20px;
@@ -43,7 +41,6 @@ nav {
 
 nav ul {
     list-style: none;
-    /* Remove default bullet points */
     margin: 0;
     padding: 0;
 }
@@ -62,7 +59,7 @@ nav a:hover {
 }
 
 main {
-    padding: 20px;
+    padding-left: 20px;
 }
 
 footer {
