@@ -1,6 +1,16 @@
 h1 {
     font-family: impact;
     font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: impact;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body {
@@ -19,15 +29,16 @@ header {
 nav {
     float: left;
     /* Move the navbar to the left */
-    width: 200px;
+    width: 120px;
     /* Set the width of the navbar */
-    height: 600px;
+    height: 700px;
     background-color: #ddd;
     padding: 20px;
     font-size: 20px;
     font-size: xx-large;
     font-family: impact;
     background-color: #000;
+    padding-left: 40px;
 }
 
 nav ul {
