@@ -1,0 +1,30 @@
+.button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Let user know it's clickable */
+}
+
+.button:hover {
+    /* Change style on hover */
+    background-color: #eee;
+}
+
+#button1 {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+#button2 {
+    background-color: #3498DB;
+    /* Blue */
+    color: white;
+}
+
+#button3 {
+    background-color: #F44336;
+    /* Red */
+    color: white;
+}
