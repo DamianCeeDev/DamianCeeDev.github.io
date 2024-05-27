@@ -1,30 +1,78 @@
-.button {
-    padding: 10px 20px;
-    border: 1px solid #ccc;
+.calculator {
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 10, 2, 0.2);
+
+}
+
+
+.calculator-display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.calculator-button {
+    width: 100%;
+    padding: 20px;
+    font-size: 1em;
+    border: 1px solid #000;
     border-radius: 5px;
     cursor: pointer;
-    /* Let user know it's clickable */
+    background-color: #c2bfbf;
+
 }
 
-.button:hover {
-    /* Change style on hover */
-    background-color: #eee;
+.calculator-button:hover {
+    background-color: #868585;
 }
 
-#button1 {
-    background-color: #4CAF50;
-    /* Green */
-    color: white;
+.calculator-button-operation {
+    background-color: #027bf5;
+    color: #fff;
+    border-radius: 5px;
 }
 
-#button2 {
-    background-color: #3498DB;
-    /* Blue */
-    color: white;
+.calculator-button-operation:hover {
+    background-color: #868585;
+
 }
 
-#button3 {
-    background-color: #F44336;
-    /* Red */
-    color: white;
+.calculator-button-equals {
+    grid-column: span 2;
+    background-color: #027bf5;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.calculator-button-equals:hover {
+    background-color: #868585;
+
+}
+
+.calculator-button-clear {
+    background-color: #ff3b30;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.calculator-button.clear:hover {
+    background-color: #868585;
 }
