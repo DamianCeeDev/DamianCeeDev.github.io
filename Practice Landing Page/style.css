@@ -1,0 +1,19 @@
+header {
+    border: 1px solid black;
+    background-color: #615EFC;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+main {
+    border: 1px solid black;
+    background-color: #7E8EF1;
+
+}
+
+footer {
+    border: 1px solid black;
+    background-color: #D1D8C5;
+}
