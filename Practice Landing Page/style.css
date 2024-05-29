@@ -1,24 +1,46 @@
 header {
-    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EEEEEE;
     color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
-    border: 1px solid black;
 }
 
 h1 {
-    text-align: center;
+    font-size: 50px;
 }
 
-h2 {
-    background-color: #EEF7FF;
-    padding: 10px;
-    margin: 0;
+.logo-left,
+.logo-right {
+    width: 10%;
+    height: auto;
 }
 
-main {
-    background-color: #CDE8E5;
+.logo3 {
+    width: 15%;
+    height: auto;
+}
+
+.hero {
+    background-color: #686D76;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero section {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.hero a {
+    font-weight: bold;
 }
 
 footer {
