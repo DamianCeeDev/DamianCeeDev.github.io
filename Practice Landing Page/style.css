@@ -28,7 +28,7 @@ h2 {
 }
 
 .hero {
-    background-color: #686D76;
+    background-color: #89898a;
     color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 30px;
@@ -52,6 +52,40 @@ h2 {
     border-radius: 25px;
     font-size: x-large;
     padding: 10px;
+}
+
+.features {
+    background-color: #373A40;
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    gap: 20px;
+}
+
+.list1 {
+    border: 2px solid #EEEEEE;
+    box-shadow: 10px 5px 5px black;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+.list2 {
+    border: 2px solid #EEEEEE;
+    box-shadow: 10px 5px 5px black;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    padding-right: 30px;
+    margin: 10px;
 }
 
 footer {
