@@ -88,6 +88,21 @@ h2 {
     margin: 10px;
 }
 
+.testimonials {
+    background-color: #EEEEEE;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+}
+
+.testimonials p {
+    font-style: italic;
+}
+
+.testimonials figcaption {
+    font-weight: bold;
+}
+
 footer {
     background-color: #4D869C;
     padding: 10px;
