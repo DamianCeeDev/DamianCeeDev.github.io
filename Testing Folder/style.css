@@ -13,15 +13,16 @@ header h1 {
 
 .left {
     background-color: #A0153E;
-    height: 40vh;
+    height: 60vh;
     border: 1px solid black;
     padding: 10px;
     width: 100%;
+    overflow: overlay;
 }
 
 .right {
     background-color: #5D0E41;
-    height: 40vh;
+    height: 60vh;
     border: 1px solid black;
     padding: 10px;
     width: 100%;
