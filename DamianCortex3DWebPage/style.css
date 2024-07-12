@@ -22,7 +22,7 @@ header {
 }
 
 .box {
-    width: 300px;
+    width: 550px;
     height: 300px;
     border: 5px solid white;
     padding: 10px;
@@ -31,4 +31,27 @@ header {
     justify-content: center;
     text-align: center;
     /* Put customer logo inside here */
+}
+
+.showreel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.showreel iframe {
+    width: 100%;
+    max-width: 1280px;
+    /* Adjust max-width as needed */
+    height: 720px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
 }
