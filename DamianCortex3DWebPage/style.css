@@ -17,15 +17,15 @@ header {
     border: 2px solid white;
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 5px;
     font-family: impact;
 }
 
 .box {
-    width: 550px;
+    width: 600px;
     height: 300px;
-    border: 5px solid white;
-    padding: 10px;
+    border: 2px solid white;
+    padding: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,5 +53,17 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.social-links a {
+    margin-left: 15px;
+    /* Adjust this value to change the spacing */
 }
