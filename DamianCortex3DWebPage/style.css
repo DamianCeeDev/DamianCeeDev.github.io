@@ -5,7 +5,7 @@
 
 header {
     border: 2px solid white;
-    padding: 20px;
+    padding: 1px;
     text-align: center;
     font-family: impact;
     font-size: 20px;
@@ -53,7 +53,7 @@ h1 {
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 50px;
 }
 
 footer {
